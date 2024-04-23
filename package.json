@@ -1,0 +1,26 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "simple cli todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "chalk",
+    "commander",
+    "conf"
+  ],
+  "author": "curious_hrk",
+  "license": "ISC",
+  "bin": {
+    "todos": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "conf": "^12.0.0"
+  }
+}
