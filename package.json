@@ -15,12 +15,13 @@
   ],
   "author": "curious_hrk",
   "license": "ISC",
-  "bin": {
-    "todos": "./index.js"
-  },
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^12.0.0",
     "conf": "^12.0.0"
-  }
+  },
+  "bin": {
+    "todos": "./index.js"
+  },
+  "type":"module"
 }
