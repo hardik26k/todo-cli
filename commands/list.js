@@ -18,11 +18,11 @@ function list(){
         taskList.forEach((task, index) => {
             if(task.done){
                 console.log(
-                    chalk.green.bold.strikethrough("`${index}. ${task.text}`")
+                    chalk.green.bold(`${index}. ${task.text}`)
                 )
             }else{
                 console.log(
-                    chalk.yellow("`${index}. ${task.text}`")
+                    chalk.yellow(`${index}. ${task.text}`)
                 )
             }
         });
