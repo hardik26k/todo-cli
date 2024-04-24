@@ -18,9 +18,9 @@ program
     .action(add)
 
 program
-    .command('markDone')
+    .command('markdone')
     .description('Mark a task as completed')
-    .option('-t or --task <tasks...> Specify the id of the task to marked as completed')
+    .option('-t or --task <tasks...>','Specify the id of the task to marked as completed')
     .action(markDone)
 
 program
