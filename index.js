@@ -20,14 +20,14 @@ program
 program
     .command('markdone')
     .description('Mark a task as completed')
-    .option('-t or --task <tasks...>','Specify the id of the task to marked as completed')
+    .option('-t, --tasks <tasks>','Specify the id of the task to marked as completed')
     .action(markDone)
 
 program
     .command('delete')
     .description('Remove a task from the list')
-    .option('-t or --task <task> Specify the id of the task to be deleted')
+    .option('-t, --task <task>','Specify the id of the task to be deleted')
     .action(deleteTask)
 
 
-program.parse()
+program.parse(process.argv)
