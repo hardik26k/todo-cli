@@ -50,7 +50,9 @@ $ todos delete -t 0
 ```
 
 ```bash
-todos -h
+$ todos -h
+
+---
 Usage: todos [options] [command]
 
 Options:
