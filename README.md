@@ -47,7 +47,8 @@ $ todos markdone -t 0
 ```bash
 $ todos delete -t 0
 
-```**
+```
+
 ```bash
 todos -h
 Usage: todos [options] [command]
