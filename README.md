@@ -45,6 +45,19 @@ $ todos markdone -t 0
 
 ```
 ```bash
+Usage: todos [options] [command]
+
+Options:
+  -h, --help          display help for command
+
+Commands:
+  list                List all the tasks
+  add <task>          Add a new task
+  markdone [options]  Mark a task as completed
+  delete [options]    Remove a task from the list
+  help [command]      display help for command
+```
+```bash
 $ todos delete -t 0
 
 ```
